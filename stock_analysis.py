@@ -4,7 +4,7 @@ from sklearn.datasets import make_moons
 import random
 random.seed(1)
 import psycopg2
-database = 'postgres://maryo:maryo@localhost/stock_name_and_sector'
+database = ''
 conn = psycopg2.connect(database)
 cur=conn.cursor()
 conn.close()
